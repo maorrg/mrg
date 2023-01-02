@@ -39,7 +39,7 @@ const Main = ({ children, router }) => {
 
         {children}
 
-        <Footer />
+        {/* <Footer /> */}
       </Container>
     </Box>
   )
