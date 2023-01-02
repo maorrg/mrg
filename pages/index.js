@@ -18,9 +18,9 @@ import { IoLogoGithub } from 'react-icons/io5'
 import { FaLinkedin } from 'react-icons/fa'
 import Image from 'next/image'
 
-const ProfileImage = chakra(Image, {
-  shouldForwardProp: (prop) => ['width', 'height', 'src', 'alt'].includes(prop)
-})
+// const ProfileImage = chakra(Image, {
+//   shouldForwardProp: (prop) => ['width', 'height', 'src', 'alt'].includes(prop)
+// })
 
 const Home = () => (
   <Layout>
