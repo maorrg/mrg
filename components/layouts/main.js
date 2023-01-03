@@ -29,13 +29,13 @@ const Main = ({ children, router }) => {
         <meta name="og:title" content="Takuya Matsuyama" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.craftz.dog/card.png" />
-        <title>Maor Roizman - Homepage</title>
+        <title>Takuya Matsuyama - Homepage</title>
       </Head>
 
       <NavBar path={router.asPath} />
 
       <Container maxW="container.md" pt={14}>
-        {/* <LazyVoxelDog /> */}
+        <LazyVoxelDog />
 
         {children}
 

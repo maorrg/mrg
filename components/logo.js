@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Text, useColorModeValue } from '@chakra-ui/react'
-import RobotIcon from './icons/robot'
+import FootprintIcon from './icons/footprint'
 import styled from '@emotion/styled'
 
 const LogoBox = styled.span`
@@ -12,14 +12,12 @@ const LogoBox = styled.span`
   line-height: 20px;
   padding: 10px;
 
-  div {
-    > svg {
-      transition: 200ms ease;
-    }
+  > svg {
+    transition: 200ms ease;
+  }
 
-    &:hover > svg {
-      transform: rotate(20deg);
-    }
+  &:hover > svg {
+    transform: rotate(20deg);
   }
 `
 
@@ -28,16 +26,14 @@ const Logo = () => {
     <Link href="/" scroll={false}>
       <a>
         <LogoBox>
-          <div style={{ paddingRight: 5 }}>
-            <RobotIcon />
-          </div>
+          <FootprintIcon />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily='M PLUS Rounded 1c", sans-serif'
             fontWeight="bold"
             ml={3}
           >
-            Maor Roizman
+            Takuya Matsuyama
           </Text>
         </LogoBox>
       </a>
